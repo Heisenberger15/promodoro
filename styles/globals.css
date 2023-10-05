@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --accent-color: #f87070;
+    --background-body: #1e213f;
+    --text: #d7e0ff;
+    --text-dark: #1e213f;
+    --background-preferences: #fff;
+    --input-background: #eff1fa;
+    --background-timer: #161932;
+    --settings-heading: #161932;
+    --default-accent: #f87070;
+    --blue-accent: #70f3f8;
+    --purple-accent: #d881f8;
+  }
+  html:lang(en) {
+    font-family: var(--nunito-font);
+  }
+  html:lang(fa) {
+    font-family: var(--vazirmatn-font);
+  }
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--main-green-100);
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--main-white-100);
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "welcome": "Welcome",
+  "signup": {
+    "title": "Sign Up",
+    "welcome_msg": "Welcome to ProMom! Please enter your email or phone number and create password for having account",
+    "form": {
+      "email_or_phone": {
+        "label": "Email or phone number",
+        "placeholder": "Enter your email or phone number",
+        "validation": {
+          "required": "Email or Phone is required"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Create password",
+        "validation": {
+          "required": "Password is required",
+          "min": "Password must be at least 8 characters",
+          "max": "Password must be at last 32 characters"
+        }
+      },
+      "confirm_password": {
+        "label": "Confirm Password",
+        "placeholder": "Confirm password",
+        "validation": {
+          "required": "Confirm Password is required",
+          "not_match": "Passwords do not match"
+        }
+      },
+      "next": "Next",
+      "or": "or",
+      "signin_with_google": "Sign in with Google",
+      "password_validation_pattern_note": "Password should contain 8 to 32 characters, mix of uppercase, lowercase letters, and numbers."
+    },
+
+    "have_account": "Already have an account?",
+    "signin_now": "Sign in now",
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "terms": {
+      "title": "Terms of use"
+    }
+  },
+
+  "code_verification": {
+    "email": {
+      "title": "Email Verification",
+      "check_email": "Please, check your inbox for verification code sent to",
+      "check_spam": "Can’t find? Please check your spam folder"
+    },
+    "phone": {
+      "title": "Phone Number Verification",
+      "check_email": "Please, check your mobile phone. Verification code sent to",
+      "check_spam": "Can’t find? Click on the button “Resend Code”"
+    },
+    "resend_code": "Resend Code",
+    "verify": "Verify",
+    "previous_step": "Previous Step",
+    "modal": {
+      "success": "Success",
+      "success_msg": "Your email has been successfully verified",
+      "got_it": "Got it"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "terms": {
+      "title": "Terms of use"
+    }
+  }
+}
