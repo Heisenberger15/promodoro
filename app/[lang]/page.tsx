@@ -9,9 +9,9 @@ export default async function Home({
   const dictionary = await getDictionary(lang);
   return (
     <main className="min-h-screen flex flex-col items-center justify-between">
-      ProMom
+      Promodoro
       <p>Current locale: {lang}</p>
-      <p> {dictionary.welcome}</p>
+      <p>{dictionary.welcome}</p>
     </main>
   );
 }
